@@ -19,8 +19,10 @@ cask "worktracker" do
   ]
 
   caveats <<~EOS
-    WorkTracker is not notarized by Apple, so install it with:
-      brew install --cask --no-quarantine worktracker
+    WorkTracker is not notarized by Apple, so macOS quarantines it on install.
+    Clear that once, or the app won't open:
+
+      xattr -cr /Applications/WorkTracker.app
 
     On first launch macOS will ask to allow Automation (to read the frontmost
     app name) and Notifications. Both are optional — time tracking works

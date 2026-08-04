@@ -8,10 +8,11 @@ macOS app that measures how much you're actually working.
 ```bash
 brew tap alontzukerman/worktracker
 brew trust --cask alontzukerman/worktracker/worktracker
-brew install --cask --no-quarantine worktracker
+brew install --cask worktracker
+xattr -cr /Applications/WorkTracker.app
 ```
 
-`--no-quarantine` is required because the app isn't notarized by Apple.
+The `xattr` line is required once because the app isn't notarized by Apple.
 
 ## Update
 
