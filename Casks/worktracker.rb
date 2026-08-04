@@ -7,7 +7,7 @@ cask "worktracker" do
   desc "Personal macOS menu bar app that tracks how much you're actually working."
   homepage "https://github.com/alontzukerman/worktracker"
 
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
   depends_on arch: :arm64
 
   app "WorkTracker.app"

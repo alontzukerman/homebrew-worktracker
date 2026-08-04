@@ -7,6 +7,7 @@ macOS app that measures how much you're actually working.
 
 ```bash
 brew tap alontzukerman/worktracker
+brew trust --cask alontzukerman/worktracker/worktracker
 brew install --cask --no-quarantine worktracker
 ```
 
