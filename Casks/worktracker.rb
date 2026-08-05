@@ -1,6 +1,6 @@
 cask "worktracker" do
-  version "0.3.0"
-  sha256 "27047e0d628ea419de0fd48f817b164abf533ceeb43e9288b1086878704dfa2a"
+  version "0.4.0"
+  sha256 "41a77e31bd5c2ae8dd74bad840bf5b2d3a6021f2faa1623c70ea3f50e4f49bd8"
 
   url "https://github.com/alontzukerman/worktracker/releases/download/v#{version}/WorkTracker-#{version}-arm64.dmg"
   name "WorkTracker"
